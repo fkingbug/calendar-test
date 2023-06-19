@@ -1,0 +1,64 @@
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #dfe3e8;
+}
+
+.auth-form {
+  width: 300px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+
+.auth-form h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-left: -5px;
+  font-size: 13px;
+}
+
+/* input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: -7px;
+} */
+
+button[type='submit'] {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #4e7ab5;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  filter: brightness(1.2);
+}
+
+.create-account {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.create-account a {
+  color: blue;
+  text-decoration: underline;
+}

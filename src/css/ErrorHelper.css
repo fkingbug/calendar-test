@@ -1,0 +1,27 @@
+.error-message-container {
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    /*-webkit-animation: fadeinout 3s linear forwards;*/
+    animation: fadeinout 3.5s linear forwards;
+}
+
+.error-message-container.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+@-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}

@@ -1,0 +1,19 @@
+.confirmation-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #dfe3e8;
+}
+
+.confirmation-dialog {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.confirmation-message {
+    text-align: center;
+    white-space: pre-wrap;
+}
