@@ -3,10 +3,10 @@ import { apiSLice } from '../../app/api/apiSLice'
 export const authApiSLice = apiSLice.injectEndpoints({
   endpoints: builder => ({
     login: builder.mutation({
-      query: credentials => ({
+      query: body => ({
         url: '/login',
         method: 'POST',
-        body: { ...credentials },
+        body,
       }),
     }),
     register: builder.mutation({

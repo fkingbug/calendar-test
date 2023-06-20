@@ -3,12 +3,34 @@
 }
 
 .profile-button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
   position: absolute;
   top: 10px; /* Расстояние от верхней границы */
   right: 25px; /* Расстояние от правой границы */
 }
+
+.profile-button-item {
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #4e7ab5;
+  color: white;
+  border: none;
+}
+
+.table-title {
+  text-align: center;
+}
 a {
   text-decoration: none;
+}
+
+.header {
+  margin: 30px 10px 10px 10px;
+  display: flex;
+  height: 50px;
+  align-items: center;
 }
 /*
 .App {
